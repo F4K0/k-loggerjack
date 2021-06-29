@@ -30,7 +30,7 @@ Let's see a LoggerJack log example:
 You might notice the first character in every line is an `i`. This means those lines are logged on an `INFO` level. 
 Why should we write 4 characters when we can write just one, right?
 
-In the second line we define two LoggerJack variables: a process ID (`p1`) and a thread name (`t1`) so we can use these in the 3rd line instead of the headlessly logging everything.
+In the second line we define two LoggerJack variables: a process ID (`p1`) and a thread name (`t1`) so we can use these in the third line instead of headlessly logging everything.
 
 We are basically substituting variables in each line and trying to reduce the amount of characters we are logging. That's it, easy huh?
 In these 8 lines we can easily save about 350 characters. Just imagine what we can do in a 1000+ lines of logs.
