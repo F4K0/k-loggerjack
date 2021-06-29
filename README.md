@@ -33,11 +33,11 @@ Why should we write 4 characters when we can write just one, right?
 In the second line we define two LoggerJack variables: a process ID (`p1`) and a thread name (`t1`) so we can use these in the third line instead of headlessly logging everything.
 
 We are basically substituting variables in each line and trying to reduce the amount of characters we are logging. That's it, easy huh?
-In these 8 lines we can easily save about 350 characters. Just imagine what we can do in a 1000+ lines of logs.
+In these 8 lines we can easily save about 350 characters. Just imagine what we can do in a 1000+ lines log file.
 
 ## LoggerJack readability
 
-LoggerJack log files are readable but it's quite hard to understand them. However we are working on a CLI tool and a web UI as well to translate LoggerJack files into the same format as you are used to.
+LoggerJack log files are readable but it's quite hard to understand them. However we are working on a CLI tool and a web UI as well to translate LoggerJack files into the same format that you are used to.
 
 ## LoggerJack efficiency 
 
