@@ -1,6 +1,6 @@
 # k-loggerjack
 
-Our goal is to save space and be more efficient than the most common logging framework at the same time.
+Our goal is to save space and be more efficient than the most common logging frameworks at the same time.
 
 ## Problem overview
 
