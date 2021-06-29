@@ -14,12 +14,12 @@ However if we have a closer look we can see that it is a bit too verbose and qui
 
 ![example_spring_dupes](https://user-images.githubusercontent.com/720608/123814123-592e7e00-d8ed-11eb-8f64-9c59b1a5a3dc.png)
 
-Everything in red is duplicated at least 2 times. However the log level, for example, will be duplicated in every line.
+Everything in red is duplicated at least two times. However the log level, for example, will be duplicated in every line.
 This seems inefficient and quite resourceful. We are wasting storage space and precious time logging redundant data.
 
 Let's see how LoggerJack would solve this issue.
 
-## How LoggerJack logging works
+## How LoggerJack works
 
 First of all we are trying to reduce the amount of characters that we are logging. 
 Why would we want to log `INFO` or `DEBUG` in every line if we could just simply replace it with a marker which is one character?
